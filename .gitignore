@@ -1,1 +1,6 @@
-*.csv
+processed_data.csv
+error.csv
+crimes_2021.csv
+crimes_2022.csv
+bairros_metadata.csv
+testes.ipynb
