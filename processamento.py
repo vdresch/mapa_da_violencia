@@ -19,9 +19,10 @@ import fiona
 #Lê dados
 crimes_2021 = pd.read_csv('data/crimes_2021.csv', sep=';', encoding="ISO-8859-1")
 crimes_2022 = pd.read_csv('data/crimes_2022.csv', sep=';', encoding="ISO-8859-1")
+crimes_2023 = pd.read_csv('data/crimes_2023.csv', sep=';', encoding="ISO-8859-1")
 
 
-crimes = pd.concat([crimes_2021, crimes_2022], ignore_index=True)
+crimes = pd.concat([crimes_2021, crimes_2022, crimes_2023], ignore_index=True)
 
 
 #Drop colunas desnecessárias
